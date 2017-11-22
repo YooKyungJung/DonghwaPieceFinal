@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".IntroActivity">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
@@ -18,6 +18,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddbookActivity"/>
+        <activity android:name=".AskActivity"/>
+        <activity android:name=".JoinActivity"/>
+        <activity android:name=".MainActivity"/>
         <activity android:name=".Book_alActivity"/>
         <activity android:name=".Book_ahActivity"/>
         <activity android:name=".Book_fActivity"/>

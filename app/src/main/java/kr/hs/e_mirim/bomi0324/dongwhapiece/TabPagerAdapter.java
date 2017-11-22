@@ -20,10 +20,10 @@ public class TabPagerAdapter extends FragmentStatePagerAdapter {
         // Returning the current tabs
         switch (position) {
             case 0:
-                f_ChuActivity tabFragment1 = new f_ChuActivity();
+                BookList tabFragment1 = new BookList();
                 return tabFragment1;
             case 1:
-                f_NewActivity tabFragment2 = new f_NewActivity();
+                BookList tabFragment2 = new  BookList();
                 return tabFragment2;
             case 2:
                 f_SearchActivity tabFragment3 = new f_SearchActivity();

@@ -61,7 +61,7 @@ public class AskActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //체크한 값 가져옴
-               /* for(int i=0; i<5; i++) {
+                for(int i=0; i<5; i++) {
                     rg[i] = (RadioGroup)findViewById((R.id.radioGroup1)+i);
                     rd[i] = (RadioButton)findViewById(rg[i].getCheckedRadioButtonId());
                     selectedValue[i] = rd[i].getText().toString(); // 해당 라디오버튼 객체의 값 가져오기
@@ -69,7 +69,8 @@ public class AskActivity extends AppCompatActivity {
                 //firebase에 입력
                 for(int i=0; i<5; i++) {
                     databaseReference.child("userData").child(uid).child("type"+(i+1)).setValue(selectedValue[i]);
-                }*/
+                }
+                databaseReference.child("userData").child(uid).child("profilePic").setValue("기본값");
                Intent i=new Intent(AskActivity.this, MainActivity.class);
                startActivity(i);
                 }

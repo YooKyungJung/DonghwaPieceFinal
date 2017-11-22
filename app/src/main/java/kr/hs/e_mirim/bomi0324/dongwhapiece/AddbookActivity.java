@@ -51,7 +51,7 @@ public class AddbookActivity extends AppCompatActivity{
                     databaseReference.child("bookData").child(sum).child("태그3").setValue("태그");
                     databaseReference.child("bookData").child(sum).child("태그4").setValue("태그");
                     databaseReference.child("bookData").child(sum).child("태그5").setValue("태그");
-                    databaseReference.child("bookData").child(sum).child("날짜").setValue("날짜넣기");
+                    databaseReference.child("bookData").child(sum).child("제목").setValue("제목넣기");
                     Toast.makeText(getApplicationContext(), "책 신청이 완료되었습니다 !", Toast.LENGTH_SHORT).show();
                 }
             }
