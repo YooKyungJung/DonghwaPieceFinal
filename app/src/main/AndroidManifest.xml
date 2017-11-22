@@ -20,6 +20,7 @@
         <activity android:name=".AddbookActivity"/>
         <activity android:name=".AskActivity"/>
         <activity android:name=".JoinActivity"/>
+        <activity android:name=".LoginActivity"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".Book_alActivity"/>
         <activity android:name=".Book_ahActivity"/>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="kr.hs.e_mirim.bomi0324.dongwhapiece.f_SearchActivity"
-    android:background="#f8f0ff"
+    android:background="@drawable/search"
     >
 
 
