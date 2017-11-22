@@ -71,7 +71,9 @@ public class AskActivity extends AppCompatActivity {
                     databaseReference.child("userData").child(uid).child("type"+(i+1)).setValue(selectedValue[i]);
                 }
                 databaseReference.child("userData").child(uid).child("profilePic").setValue("기본값");
-               Intent i=new Intent(AskActivity.this, MainActivity.class);
+                databaseReference.child("userData").child(uid).child("cnt").setValue(0);
+
+                Intent i=new Intent(AskActivity.this, MainActivity.class);
                startActivity(i);
                 }
 

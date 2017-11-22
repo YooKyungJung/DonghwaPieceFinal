@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/login"
-    android:paddingTop="80dp"
+    android:paddingTop="100dp"
     android:paddingLeft="40dp"
     android:paddingRight="40dp">
     <LinearLayout
@@ -56,16 +56,20 @@
         android:paddingBottom="30dp">
 
         <Button
-            android:id="@+id/loginlog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:layout_width="208dp"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:text="로그인" />
+            android:text="로그인"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_long"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
 
         <TextView
             android:layout_width="match_parent"
@@ -75,13 +79,15 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
 
         <Button
-            android:id="@+id/joinlog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/join"
+            android:layout_width="208dp"
+            android:layout_height="40dp"
             android:layout_weight="1"
+            android:background="@drawable/bg_long"
             android:text="회원가입" />
 
     </LinearLayout>
